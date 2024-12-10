@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         "texto-color": "#AD565B",
       },
+      backgroundImage: {
+        "fundo-site": "url('/assets/images/fundos.jpg')",
+      },
     },
   },
   plugins: [],
