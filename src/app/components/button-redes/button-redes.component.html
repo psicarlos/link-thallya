@@ -1,0 +1,13 @@
+<li class="flex flex-row border-2 border-texto-color hover:border-texto-color hover:duration-300 rounded-2xl px-4 py-2 mx-[10%] lg:mx-[25%] gap-2">
+  <div>
+    <img src="../assets/svg/{{image}}.svg" alt={{title}} class="rounded-lg w-[30px] h-[30px] lg:w-[20px] lg:h-[20px]">
+  </div>
+
+  <a *ngIf="linkUrl" href={{linkUrl}} (click)=({copy}) target="_blank" rel="noopener noreferrer" class="hover:cursor-pointer hover:text-blue-400 w-full flex flex-row gap-2 hover:scale-150 duration-500">
+    <p class="text-base font-bold bg-gradient-to-r from-rose-400 to-texto-color bg-clip-text text-transparent m-auto">{{title}}</p>
+  </a>
+
+  <a *ngIf="!linkUrl" (click)=({copy}) target="_blank" rel="noopener noreferrer" class="hover:cursor-pointer hover:text-blue-400 w-full flex flex-row gap-2 hover:scale-150 duration-500">
+    <p class="text-base font-bold bg-gradient-to-r from-slate-300 to-texto-color bg-clip-text text-transparent m-auto">{{title}}</p>
+  </a>
+</li>

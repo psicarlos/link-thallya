@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    ".vscode": true,
+    ".angular": true,
+    "node_modules": true,
+    ".angular.json": true,
+    "angular.json": true,
+    ".gitignore": true,
+    ".editorconfig": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "postcss.config.mjs": true,
+    "README.md": true,
+    "tsconfig.json": true,
+    "tsconfig.app.json": true,
+    "tsconfig.spec.json": true
+  }
+}
